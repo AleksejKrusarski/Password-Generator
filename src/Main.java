@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        //instantiate the GUI
+        PasswordGeneratorGUI passwordGeneratorGUI = new PasswordGeneratorGUI();
+
+        //make the GUI visible
+        passwordGeneratorGUI.setVisible(true);
+
     }
 }
